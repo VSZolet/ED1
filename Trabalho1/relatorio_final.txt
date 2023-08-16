@@ -1,0 +1,17 @@
+Em testes realizados em uma máquina com 16GB RAM (2x8GB DDR4 2133MHz), CPU i7 7700k, Sistema e CodeBlocks instalado em SSD 380GB leitura/escrita;
+
+Valores do teste estão em segundos com duas casas decimais de precisão, sendo então valores aproximados;
+
+Será listado Opção, sua função, tempo na lista encadeada e sequencial, nesta ordem;
+(Quando apresentado "x.xxs->x.xxs" equivale a um valor que varia de acordo com a posição solicitada, da menor para a maior variação observada)
+
+>>Opção 1, inserir no inicio da fila, 0.00s, 0.14s;
+>>Opção 2, inserir no fim da fila, 0.00s, 0.00s;
+>>Opção 3, inserir em qualquer posição, 0s->0.05s, 0.07s;
+>>Opção 4, retirar o primeiro da fila, 0s, 0.13s;
+>>Opção 5, retirar o ultimo da fila, 0.00s, 0.00s;
+>>Opção 6, retirar de qualquer posição, 0s->0.05s, 0.07s;
+>>Opção 7, pesquisar um RG qualquer, 0.06s->0.08s, 0.00s->0.03s;
+>>Opção 8, imprimir toda a lista, 303.01s, 296,96s;
+>>Opção 9, salvar em um arquivo, 2.72s, 2.72s;
+>>Opção 10, ler de um arquivo existente, 3.56s, 3.10s;
